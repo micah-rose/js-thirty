@@ -5,4 +5,4 @@ newHW.innerHTML = hw;
 
 let date = new Date;
 console.log(hw);
-console.log(date.getDate());
+console.log(date.getMonth()+1 + ' ' + date.getDate() + ' ' + date.getFullYear());
