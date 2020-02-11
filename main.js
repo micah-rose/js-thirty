@@ -10,5 +10,7 @@ console.log(
 );
 
 let todaysDate =
-  date.getMonth() + 1 + " " + date.getDate() + " " + date.getFullYear();
+  date.getMonth() + 1 + "-" + date.getDate() + "-" + date.getFullYear();
 console.log(todaysDate);
+let newTD = document.getElementById("hw-date");
+newTD.innerText = todaysDate;
