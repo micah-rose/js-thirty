@@ -9,8 +9,14 @@ console.log(
   date.getMonth() + 1 + " " + date.getDate() + " " + date.getFullYear()
 );
 
+//If or Switch statement for displaying the actual month name versus the month number. 
+// if date.getMonth = 1 {
+//     return "January"
+// }
+
 let todaysDate =
   date.getMonth() + 1 + "-" + date.getDate() + "-" + date.getFullYear();
 console.log(todaysDate);
+
 let newTD = document.getElementById("hw-date");
 newTD.innerText = todaysDate;
