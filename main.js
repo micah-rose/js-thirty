@@ -9,36 +9,38 @@ console.log(
   date.getMonth() + 1 + " " + date.getDate() + " " + date.getFullYear()
 );
 
+let month;
+
 //If or Switch statement for displaying the actual month name versus the month number. 
 if (date.getMonth = 1) {
-    return "January"
+    month =  "January"
 } if (date.getMonth = 2) {
-    return "February"
+    month = "February"
 } if (date.getMonth = 3) {
-    return "March"
+    month = "March"
 } if (date.getMonth = 4) {
-    return "April"
+    month = "April"
 } if (date.getMonth = 5) {
-    return "May"
+    month = "May"
 } if (date.getMonth = 6) {
-    return "June"
+    month = "June"
 } if (date.getMonth = 7) {
-    return "July"
+    month = "July"
 } if (date.getMonth = 8) {
-    return "August"
+    month = "August"
 } if (date.getMonth = 9) {
-    return "September"
+    month = "September"
 } if (date.getMonth = 10) {
-    return "October"
+    month = "October"
 } if (date.getMonth = 11) {
-    return "November"
+    month = "November"
 } if (date.getMonth = 12) {
-    return "December"
+    month = "December"
 } 
 
 
 let todaysDate =
-  date.getMonth() + 1 + "-" + date.getDate() + "-" + date.getFullYear();
+  month + " " + date.getDate() + ", " + date.getFullYear();
 console.log(todaysDate);
 
 let newTD = document.getElementById("hw-date");
