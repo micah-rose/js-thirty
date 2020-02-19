@@ -8,7 +8,6 @@ console.log(hw);
 console.log(
   date.getMonth() + 1 + " " + date.getDate() + " " + date.getFullYear()
 );
-console.log(date.getMonth() + 1);
 
 const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
