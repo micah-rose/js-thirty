@@ -23,3 +23,6 @@ newTD.innerText = todaysDate;
 let currentTime = 
 date.getHours() + ":" + date.getMinutes();
 console.log(currentTime);
+
+let newCT = document.getElementById("hw-time");
+newCT.innerText = currentTime;
