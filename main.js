@@ -20,8 +20,16 @@ console.log(todaysDate);
 let newTD = document.getElementById("hw-date");
 newTD.innerText = todaysDate;
 
+
+let hours = date.getHours();
+if (hours > 12) {
+    hours -= 12;
+} else if (hours === 0) {
+   hours = 12;
+}
+
 let currentTime = 
-date.getHours() + ":" + date.getMinutes();
+hours + ":" + date.getMinutes();
 console.log(currentTime);
 
 let newCT = document.getElementById("hw-time");
