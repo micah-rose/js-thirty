@@ -19,3 +19,7 @@ console.log(todaysDate);
 
 let newTD = document.getElementById("hw-date");
 newTD.innerText = todaysDate;
+
+let currentTime = 
+date.getHours() + ":" + date.getMinutes();
+console.log(currentTime);
