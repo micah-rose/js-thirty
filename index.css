@@ -12,3 +12,8 @@ body {
     width: 50%;
     text-align: center;
 }
+
+h3 {
+    font-size: 40px;
+    margin: 5px;
+}
