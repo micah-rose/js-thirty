@@ -30,7 +30,7 @@ if (hours > 12) {
 
 let minutes = date.getMinutes();
 if (minutes < 10){
-    minutes = 0 + date.getMinutes();
+    minutes = "0" + date.getMinutes();
 } 
 
 let currentTime = 
