@@ -28,8 +28,13 @@ if (hours > 12) {
    hours = 12;
 }
 
+let minutes = date.getMinutes();
+if (minutes < 10){
+    minutes = 0 + date.getMinutes();
+} 
+
 let currentTime = 
-hours + ":" + date.getMinutes();
+hours + ":" + minutes;
 console.log(currentTime);
 
 let newCT = document.getElementById("hw-time");
@@ -43,8 +48,9 @@ weekday[3] = "Wednesday";
 weekday[4] = "Thursday";
 weekday[5] = "Friday";
 weekday[6] = "Saturday";
+
 let day = weekday[date.getDay()];
-console.log(weekday[date.getDay()]);
+console.log(day);
 
 let newDay = document.getElementById("hw-day");
 
