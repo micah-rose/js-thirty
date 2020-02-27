@@ -40,6 +40,8 @@ console.log(currentTime);
 let newCT = document.getElementById("hw-time");
 newCT.innerText = currentTime;
 
+function today(){
+
 const weekday = new Array(7);
 weekday[0]=  "Sunday";
 weekday[1] = "Monday";
@@ -51,22 +53,6 @@ weekday[6] = "Saturday";
 
 let day = weekday[date.getDay()];
 console.log(day);
-
-let newDay = document.getElementById("hw-day");
-
-if(day = "Sunday"){
-    newDay.innerText = "Sunday";
-} if(day = "Monday"){
-    newDay.innerText = "Monday";
-} if(day = "Tuesday"){
-    newDay.innerText = "Tuesday";
-} if(day = "Wednesday"){
-    newDay.innerText = "Wednesday";
-} if(day = "Thursday"){
-    newDay.innerText = "Thursday";
-} if(day = "Friday"){
-    newDay.innerText = "Friday";
-} if(day = "Saturday"){
-    newDay.innerText = "Saturday";
+document.getElementById("hw-day").innerHTML = day;
 }
 
