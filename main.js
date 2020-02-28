@@ -24,10 +24,10 @@ let hours = date.getHours();
 let amPm;
 if (hours > 12) {
     hours -= 12;
-    amPm = "AM"
+    amPm = "PM"
 } else if (hours === 0) {
    hours = 12;
-   amPM = "PM"
+   amPM = "AM"
 }
 
 let minutes = date.getMinutes();
@@ -36,7 +36,7 @@ if (minutes < 10){
 } 
 
 let currentTime = 
-hours + ":" + minutes + amPm;
+hours + ":" + minutes + ' ' + amPm;
 console.log(currentTime);
 
 let newCT = document.getElementById("hw-time");
