@@ -21,10 +21,13 @@ let newTD = document.getElementById("hw-date");
 newTD.innerText = todaysDate;
 
 let hours = date.getHours();
+let amPm;
 if (hours > 12) {
     hours -= 12;
+    amPm = "AM"
 } else if (hours === 0) {
    hours = 12;
+   amPM = "PM"
 }
 
 let minutes = date.getMinutes();
@@ -33,7 +36,7 @@ if (minutes < 10){
 } 
 
 let currentTime = 
-hours + ":" + minutes;
+hours + ":" + minutes + amPm;
 console.log(currentTime);
 
 let newCT = document.getElementById("hw-time");
