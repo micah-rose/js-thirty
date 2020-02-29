@@ -29,7 +29,7 @@ weekday[6] = "Saturday";
 let day = weekday[date.getDay()];
 
 let newTD = document.getElementById("hw-date");
-newTD.innerText = day + ' ' + todaysDate;
+newTD.innerText = day + ' - ' + todaysDate;
 
 let hours = date.getHours();
 let amPm;
