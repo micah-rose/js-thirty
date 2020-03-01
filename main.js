@@ -66,3 +66,6 @@ signs[8] = "Virgo";
 signs[9] = "Libra";
 signs[10] = "Scorpio";
 signs[11] = "Sagittarius";
+
+//Here will be a switch statement taking in the value
+//from the input tag and telling the user what their zodiac sign is
