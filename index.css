@@ -25,3 +25,14 @@ h3 {
     font-size: 40px;
     margin: 5px;
 }
+
+#hw-bDayMsg{
+    font-weight: bold;
+    color: red;
+}
+
+input{
+    width: 180px;
+    font-size: 15px;
+    text-align: center;
+}
