@@ -52,3 +52,17 @@ console.log(currentTime);
 
 let newCT = document.getElementById("hw-time");
 newCT.innerText = currentTime;
+
+const signs = new Array(12);
+signs[0] = "Capricorn";
+signs[1] = "Aquarius";
+signs[2] = "Pisces";
+signs[3] = "Aries";
+signs[4] = "Taurus";
+signs[5] = "Gemini";
+signs[6] = "Cancer";
+signs[7] = "Leo";
+signs[8] = "Virgo";
+signs[9] = "Libra";
+signs[10] = "Scorpio";
+signs[11] = "Sagittarius";
