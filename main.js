@@ -71,4 +71,7 @@ let bDay = document.getElementById("hw-bDay").value;
 console.log(bDay);
 
 //Here will be a switch statement taking in the value
-//from the input tag and telling the user what their zodiac sign is
+//from the input tag and telling the user what their zodiac sign is.
+
+//May need to take in the value and then parse between the month and
+//day of the month to best utilize the switch statement.
