@@ -39,7 +39,7 @@ input{
 }
 
 #submit {
-    display: block;
+    display: inline-block;
     width: 60px;
     font-size: 20px;
    color: blue;
