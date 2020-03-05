@@ -69,10 +69,9 @@ signs[11] = "Sagittarius";
 
 function saveDate(){
     let bDay = document.getElementById("hw-bDay").value;
-    console.log(bDay);
+    const parseBday = bDay.split("-");
+    console.log(parseBday);
 }
-
-
 
 //Here will be a switch statement taking in the value
 //from the input tag and telling the user what their zodiac sign is.
