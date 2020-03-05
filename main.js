@@ -70,7 +70,7 @@ signs[11] = "Sagittarius";
 function saveDate(){
     let bDay = document.getElementById("hw-bDay").value;
     const parseBday = bDay.split("-");
-    console.log(parseBday);
+    console.log(parseBday[0]);
 }
 
 //Here will be a switch statement taking in the value
