@@ -71,6 +71,9 @@ function saveDate(){
     let bDay = document.getElementById("hw-bDay").value;
     const parseBday = bDay.split("-");
     console.log(parseBday[0]);
+
+    //Now will need to store new array elements into their own
+    //variables in order to pull them through the switch statement
 }
 
 //Here will be a switch statement taking in the value
