@@ -72,6 +72,12 @@ function saveDate(){
     const parseBday = bDay.split("-");
     console.log(parseBday[0]);
 
+    let month = parseBday[0];
+    let day = parseBday[1];
+
+    console.log("Month: " + month);
+    console.log("Day: " + day);
+
     //Now will need to store new array elements into their own
     //variables in order to pull them through the switch statement
 }
