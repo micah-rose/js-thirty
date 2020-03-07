@@ -92,6 +92,77 @@ function saveDate() {
   console.log("Month: " + month);
   console.log("Day: " + day);
 
-  //Here will be a switch statement taking in the value
-  //from the input tag and telling the user what their zodiac sign is.
+  switch (month) {
+    case "01":
+      if (day < 20)
+        alert("Your zodiac sign is: " + zod_signs[0]);
+      else alert("Your zodiac sign is: " + zod_signs[1]);
+      break;
+
+    case "02":
+      if (day < 19)
+        alert("Your zodiac sign is: " + zod_signs[1]);
+      else alert("Your zodiac sign is: " + zod_signs[2]);
+      break;
+
+    case "03":
+      if (day < 21)
+        alert("Your zodiac sign is: " + zod_signs[2]);
+      else alert("Your zodiac sign is: " + zod_signs[3]);
+      break;
+
+    case "04":
+      if (day < 20)
+        alert("Your zodiac sign is: " + zod_signs[3]);
+      else alert("Your zodiac sign is: " + zod_signs[4]);
+      break;
+
+    case "05":
+      if (day < 21)
+        alert("Your zodiac sign is: " + zod_signs[4]);
+      else alert("Your zodiac sign is: " + zod_signs[5]);
+      break;
+
+    case "06":
+      if (day < 21)
+        alert("Your zodiac sign is: " + zod_signs[5]);
+      else alert("Your zodiac sign is: " + zod_signs[6]);
+      break;
+
+    case "07":
+      if (day < 23)
+        alert("Your zodiac sign is: " + zod_signs[6]);
+      else alert("Your zodiac sign is: " +zod_signs[7]);
+      break;
+
+    case "08":
+      if (day < 23)
+        alert("Your zodiac sign is: " + zod_signs[7]);
+      else alert("Your zodiac sign is: " + zod_signs[8]);
+      break;
+
+    case "09":
+      if (day < 23)
+        alert("Your zodiac sign is: " + zod_signs[8]);
+      else alert("Your zodiac sign is: " +zod_signs[9]);
+      break;
+
+    case "10":
+      if (day < 23)
+        alert("Your zodiac sign is: " + zod_signs[9]);
+      else alert("Your zodiac sign is: " + zod_signs[10]);
+      break;
+
+    case "11":
+      if (day < 22)
+        alert("Your zodiac sign is: " + zod_signs[10]);
+      else alert("Your zodiac sign is: " + zod_signs[11]);
+      break;
+
+    case "12":
+      if (day < 22)
+        alert("Your zodiac sign is: " + zod_signs[11]);
+      else alert("Your zodiac sign is: " + zod_signs[0]);
+      break;
+  }
 }
