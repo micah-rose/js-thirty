@@ -67,20 +67,6 @@ console.log(currentTime);
 let newCT = document.getElementById("hw-time");
 newCT.innerText = currentTime;
 
-const signs = new Array(12);
-signs[0] = "Capricorn";
-signs[1] = "Aquarius";
-signs[2] = "Pisces";
-signs[3] = "Aries";
-signs[4] = "Taurus";
-signs[5] = "Gemini";
-signs[6] = "Cancer";
-signs[7] = "Leo";
-signs[8] = "Virgo";
-signs[9] = "Libra";
-signs[10] = "Scorpio";
-signs[11] = "Sagittarius";
-
 function saveDate() {
   let bDay = document.getElementById("hw-bDay").value;
   const parseBday = bDay.split("-");
@@ -92,77 +78,79 @@ function saveDate() {
   console.log("Month: " + month);
   console.log("Day: " + day);
 
+  const signs = new Array(12);
+  signs[0] = "Capricorn";
+  signs[1] = "Aquarius";
+  signs[2] = "Pisces";
+  signs[3] = "Aries";
+  signs[4] = "Taurus";
+  signs[5] = "Gemini";
+  signs[6] = "Cancer";
+  signs[7] = "Leo";
+  signs[8] = "Virgo";
+  signs[9] = "Libra";
+  signs[10] = "Scorpio";
+  signs[11] = "Sagittarius";
+
   switch (month) {
     case "01":
-      if (day < 20)
-        alert("Your zodiac sign is: " + zod_signs[0]);
-      else alert("Your zodiac sign is: " + zod_signs[1]);
+      if (day < 20) alert("Your zodiac sign is: " + signs[0]);
+      else alert("Your zodiac sign is: " + signs[1]);
       break;
 
     case "02":
-      if (day < 19)
-        alert("Your zodiac sign is: " + zod_signs[1]);
-      else alert("Your zodiac sign is: " + zod_signs[2]);
+      if (day < 19) alert("Your zodiac sign is: " + signs[1]);
+      else alert("Your zodiac sign is: " + signs[2]);
       break;
 
     case "03":
-      if (day < 21)
-        alert("Your zodiac sign is: " + zod_signs[2]);
+      if (day < 21) alert("Your zodiac sign is: " + zod_signs[2]);
       else alert("Your zodiac sign is: " + zod_signs[3]);
       break;
 
     case "04":
-      if (day < 20)
-        alert("Your zodiac sign is: " + zod_signs[3]);
-      else alert("Your zodiac sign is: " + zod_signs[4]);
+      if (day < 20) alert("Your zodiac sign is: " + signs[3]);
+      else alert("Your zodiac sign is: " + signs[4]);
       break;
 
     case "05":
-      if (day < 21)
-        alert("Your zodiac sign is: " + zod_signs[4]);
-      else alert("Your zodiac sign is: " + zod_signs[5]);
+      if (day < 21) alert("Your zodiac sign is: " + signs[4]);
+      else alert("Your zodiac sign is: " + signs[5]);
       break;
 
     case "06":
-      if (day < 21)
-        alert("Your zodiac sign is: " + zod_signs[5]);
-      else alert("Your zodiac sign is: " + zod_signs[6]);
+      if (day < 21) alert("Your zodiac sign is: " + signs[5]);
+      else alert("Your zodiac sign is: " + signs[6]);
       break;
 
     case "07":
-      if (day < 23)
-        alert("Your zodiac sign is: " + zod_signs[6]);
-      else alert("Your zodiac sign is: " +zod_signs[7]);
+      if (day < 23) alert("Your zodiac sign is: " + signs[6]);
+      else alert("Your zodiac sign is: " + signs[7]);
       break;
 
     case "08":
-      if (day < 23)
-        alert("Your zodiac sign is: " + zod_signs[7]);
-      else alert("Your zodiac sign is: " + zod_signs[8]);
+      if (day < 23) alert("Your zodiac sign is: " + signs[7]);
+      else alert("Your zodiac sign is: " + signs[8]);
       break;
 
     case "09":
-      if (day < 23)
-        alert("Your zodiac sign is: " + zod_signs[8]);
-      else alert("Your zodiac sign is: " +zod_signs[9]);
+      if (day < 23) alert("Your zodiac sign is: " + signs[8]);
+      else alert("Your zodiac sign is: " + signs[9]);
       break;
 
     case "10":
-      if (day < 23)
-        alert("Your zodiac sign is: " + zod_signs[9]);
-      else alert("Your zodiac sign is: " + zod_signs[10]);
+      if (day < 23) alert("Your zodiac sign is: " + signs[9]);
+      else alert("Your zodiac sign is: " + signs[10]);
       break;
 
     case "11":
-      if (day < 22)
-        alert("Your zodiac sign is: " + zod_signs[10]);
-      else alert("Your zodiac sign is: " + zod_signs[11]);
+      if (day < 22) alert("Your zodiac sign is: " + signs[10]);
+      else alert("Your zodiac sign is: " + signs[11]);
       break;
 
     case "12":
-      if (day < 22)
-        alert("Your zodiac sign is: " + zod_signs[11]);
-      else alert("Your zodiac sign is: " + zod_signs[0]);
+      if (day < 22) alert("Your zodiac sign is: " + signs[11]);
+      else alert("Your zodiac sign is: " + signs[0]);
       break;
   }
 }
