@@ -32,7 +32,7 @@ h3 {
     font-size: 15px;
 }
 
-input{
+#hw-bDay{
     width: 180px;
     font-size: 15px;
     text-align: center;
@@ -43,4 +43,10 @@ input{
     width: 60px;
     font-size: 20px;
    color: blue;
+}
+
+#hw-num {
+    width: 250px;
+    font-size: 15px;
+    text-align: center;
 }
