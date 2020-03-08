@@ -154,3 +154,7 @@ function saveDate() {
       break;
   }
 }
+
+function randNum(){
+    //function to pull random number between 1 and 10
+}
