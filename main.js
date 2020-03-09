@@ -155,18 +155,18 @@ function saveDate() {
   }
 }
 
-let compNum = Math.ceil(Math.random() * 100);
-console.log(compNum);
-
-function randNum(){
-    let userNum = document.getElementById("hw-num").value;
-    if (userNum === "") {
-        alert("You didn't enter anything. Please pick a number between 1 and 10.");
-      } else if (userNum == compNum) {
-        alert("You guessed the right number!!");
-      } else if (userNum > 10) {
-        alert("Please pick a new number less than 10.");
-      } else {
-        alert("Please pick a new number. What you entered is not valid.");
-      }
+function randNum() {
+  let userNum = document.getElementById("hw-num").value;
+  let compNum = Math.ceil(Math.random() * 10);
+  console.log(compNum);
+  
+  if (userNum === "") {
+    alert("You didn't enter anything. Please pick a number between 1 and 10.");
+  } else if (userNum == compNum) {
+    alert("You guessed the right number!!");
+  } else if (userNum > 10) {
+    alert("Please pick a new number less than 10.");
+  } else {
+    alert("Please pick a new number. What you entered is not valid.");
+  }
 }
