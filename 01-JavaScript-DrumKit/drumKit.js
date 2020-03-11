@@ -1,1 +1,3 @@
-alert("Let's play drums!!");
+window.addEventListener('keydown', function (e){
+    console.log(e);
+})
