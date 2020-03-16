@@ -1,6 +1,7 @@
 //JavaScript file for JS and CSS Clock
 
 const secondHand = document.querySelector(".second-hand");
+const minHand = document.querySelector(".min-hand");
 const hourHand = document.querySelector(".hour-hand");
 
 function setDate() {
@@ -12,7 +13,11 @@ function setDate() {
 
   const mins = now.getMinutes();
   const minDegrees = (mins / 60) * 360 + 90;
-  hourHand.style.transform = `rotate(${minDegrees}deg)`;
+  minHand.style.transform = `rotate(${minDegrees}deg)`;
+
+  const hour = now.getMinutes();
+  const hourDegrees = (hour / 12) * 360 + 90;
+  hourHand.style.transform = `rotate(${hourDegrees}deg)`;
 }
 
 setInterval(setDate, 1000);
