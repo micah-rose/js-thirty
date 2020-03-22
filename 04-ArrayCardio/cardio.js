@@ -57,11 +57,9 @@ const people = [
   "Blake, William"
 ];
 
-const fifteen = inventors.filter(function(inventor) {
-  if (inventor.year >= 1500 && inventor.year < 1600) {
-    return true;
-  }
-});
+const fifteen = inventors.filter(
+  inventor => inventor.year >= 1500 && inventor.year < 1600
+);
 
 console.table(fifteen);
 
