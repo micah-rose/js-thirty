@@ -67,7 +67,14 @@ const fullNames = inventors.map(
 );
 console.log(fullNames);
 
-
+const ordered = inventors.sort(function(firstPerson, secondPerson) {
+  if (firstPerson.year > secondPerson.year) {
+    return 1;
+  } else {
+    return -1;
+  }
+});
+console.table(ordered);
 
 const data = [
   "car",
