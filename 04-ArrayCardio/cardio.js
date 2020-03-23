@@ -96,7 +96,6 @@ const alpha = people.sort((lastOne, nextOne) => {
 });
 console.log(alpha);
 
- 
 
 const data = [
   "car",
@@ -114,3 +113,7 @@ const data = [
   "car",
   "truck"
 ];
+
+const transportation = data.reduce(function(obj, item) {
+
+}, {})
