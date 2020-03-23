@@ -90,8 +90,11 @@ console.table(oldest);
 //   .filter(streetName => streetName.includes("de"));
 
 const alpha = people.sort(function(lastOne, nextOne) {
-console.log(lastOne);
-})
+  const [aLast, aFirst] = lastOne.split(", ");
+  const [bLast, bFirst] = nextOne.split(", ");
+  return aLast > bLast ? 1 : -1;
+});
+console.log(alpha);
 
 const data = [
   "car",
