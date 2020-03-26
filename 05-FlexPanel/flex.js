@@ -1,4 +1,4 @@
-//JS File for Flex Panels exercise
+//JS File for Flex Panels exercise - NEEDS FIX, check commit notes
 const panels = document.querySelectorAll(".panel");
 
 function toggleOpen() {
