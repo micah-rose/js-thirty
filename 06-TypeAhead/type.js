@@ -7,3 +7,7 @@ const cities = [];
 function findMatches(wordToMatch, cities) {
   console.log(cities);
 }
+
+function numberWithCommas(x) {
+  console.log(x);
+}
