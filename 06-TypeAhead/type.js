@@ -11,3 +11,7 @@ function findMatches(wordToMatch, cities) {
 function numberWithCommas(x) {
   console.log(x);
 }
+
+function displayMatches() {
+  console.log("We have a match");
+}
