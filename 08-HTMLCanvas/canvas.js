@@ -18,6 +18,8 @@ function draw(e) {
   ctx.moveTo(lastX, lastY);
   ctx.lineTo(e.offsetX, e.offsetY);
   ctx.stroke();
+  lastX = e.offsetX;
+  lastY = e.offsetY;
 }
 
 canvas.addEventListener("mousemove", draw);
