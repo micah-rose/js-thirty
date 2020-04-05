@@ -6,6 +6,7 @@ canvas.height = window.innerHeight;
 ctx.strokeStyle = "#BADA55";
 ctx.lineJoin = "round";
 ctx.lineCap = "round";
+ctx.lineWidth = 100;
 
 let isDrawing = false;
 let lastX = 0;
