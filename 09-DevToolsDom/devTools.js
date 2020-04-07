@@ -29,3 +29,13 @@ console.warn("OH NOOOO");
 
 //Error
 console.error("OH NOOOO");
+
+//Info
+console.info("Crocodiles eat 3-4 people per year");
+
+//Testing
+const p = document.querySelector("p");
+console.assert(p.classList.contains("ouch"), "That is wrong!");
+
+//Clearing
+console.clear();
