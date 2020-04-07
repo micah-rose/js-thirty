@@ -23,3 +23,9 @@ console.log(
   "%c I am some great text",
   "font-size:50px; background:red; text-shadow: 10px 10px 0 blue"
 );
+
+//Warning
+console.warn("OH NOOOO");
+
+//Error
+console.error("OH NOOOO");
