@@ -41,7 +41,9 @@ console.assert(p.classList.contains("ouch"), "That is wrong!");
 console.clear();
 
 //Viewing DOM Elements
+console.log(p);
 console.dir(p);
+console.clear();
 
 //Grouping
 dogs.forEach(dog => {
