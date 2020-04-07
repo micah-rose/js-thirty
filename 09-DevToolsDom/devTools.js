@@ -15,3 +15,11 @@ console.log("hello");
 
 //Interpolated
 console.log("Hello I am a %s string!", "silly");
+//Using back ticks to bring in a variable
+//console.log(`Hello I am a ${var} string!`);
+
+//Styled
+console.log(
+  "%c I am some great text",
+  "font-size:50px; background:red; text-shadow: 10px 10px 0 blue"
+);
