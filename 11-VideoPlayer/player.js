@@ -14,3 +14,5 @@ function togglePlay() {
     video.pause();
   }
 }
+
+video.addEventListener("click", togglePlay);
