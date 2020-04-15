@@ -15,4 +15,11 @@ function togglePlay() {
   }
 }
 
+function updateButton() {
+  console.log("Update the button");
+}
+
 video.addEventListener("click", togglePlay);
+video.addEventListener("play", updateButton);
+video.addEventListener("pause", updateButton);
+toggle.addEventListener("click", togglePlay);
