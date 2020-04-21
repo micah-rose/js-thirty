@@ -15,8 +15,11 @@ console.log(name, name2);
 const players = ["Wes", "Sarah", "Ryan", "Poppy"];
 
 // and we want to make a copy of it.
+const team = players;
+console.log(players, team);
 
 // You might think we can just do something like this:
+team[3] = "Lux";
 
 // however what happens when we update that array?
 
