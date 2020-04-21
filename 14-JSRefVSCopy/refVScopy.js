@@ -74,3 +74,8 @@ const wes = {
     facebook: "wesbos.developer"
   }
 };
+
+console.clear();
+console.log(wes);
+
+const dev = Object.assign({}, wes);
