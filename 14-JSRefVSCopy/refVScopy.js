@@ -30,6 +30,7 @@ team[3] = "Lux";
 // Why? It's because that is an array reference, not an array copy. They both point to the same array!
 
 // So, how do we fix this? We take a copy instead!
+const team2 = players.slice();
 
 // one way
 
