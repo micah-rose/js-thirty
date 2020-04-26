@@ -6,3 +6,5 @@ const walk = 500; // 500px
 function shadow(e) {
   console.log(e);
 }
+
+hero.addEventListener("mousemove", shadow);
