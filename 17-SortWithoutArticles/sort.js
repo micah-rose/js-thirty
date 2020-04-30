@@ -13,3 +13,7 @@ const bands = [
   "Anywhere But Here",
   "An Old Dog"
 ];
+
+function strip(bandName) {
+  console.log(bandName);
+}
