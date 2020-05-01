@@ -1,1 +1,3 @@
-//JS File for Adding Up Times with Reduce exercise
+const timeNodes = Array.from(document.querySelectorAll("[data-time]"));
+
+const seconds = timeNodes;
