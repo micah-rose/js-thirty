@@ -15,5 +15,5 @@ const bands = [
 ];
 
 function strip(bandName) {
-  console.log(bandName);
+  return bandName.replace(/^(a |the |an )/i, "").trim();
 }
