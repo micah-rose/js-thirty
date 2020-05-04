@@ -15,3 +15,15 @@ function paintToCanvas() {
 function takePhoto() {
   console.log("Photo");
 }
+
+function redEffect(pixels) {
+  return pixels;
+}
+
+function rgbSplit(pixels) {
+  return pixels;
+}
+
+function greenScreen(pixels) {
+  return pixels;
+}
