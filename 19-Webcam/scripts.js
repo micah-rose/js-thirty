@@ -109,3 +109,5 @@ function greenScreen(pixels) {
 }
 
 getVideo();
+
+video.addEventListener("canplay", paintToCanvas);
