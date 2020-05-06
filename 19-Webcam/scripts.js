@@ -107,3 +107,5 @@ function greenScreen(pixels) {
 
   return pixels;
 }
+
+getVideo();
