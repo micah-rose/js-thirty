@@ -23,3 +23,7 @@ recognition.addEventListener("result", e => {
     words.appendChild(p);
   }
 });
+
+recognition.addEventListener("end", recognition.start);
+
+recognition.start();
