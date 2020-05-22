@@ -7,4 +7,4 @@ function highlightLink() {
   console.log("Highlight!!");
 }
 
-
+triggers.forEach(a => a.addEventListener("mouseenter", highlightLink));
