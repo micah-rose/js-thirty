@@ -1,7 +1,7 @@
 const triggers = document.querySelectorAll("a");
 const highlight = document.createElement("span");
 highlight.classList.add("highlight");
-document.body.append(highlight);
+document.body.appendChild(highlight);
 
 function highlightLink() {
   const linkCoords = this.getBoundingClientRect();
@@ -9,8 +9,8 @@ function highlightLink() {
   const coords = {
     width: linkCoords.width,
     height: linkCoords.height,
-    top: linkCoords.top + windowScrollY,
-    left: linkCoords.left + windowScrollX
+    top: linkCoords.top + window.scrollY,
+    left: linkCoords.left + window.scrollX
   };
 
   highlight.style.width = `${coords.width}px`;
