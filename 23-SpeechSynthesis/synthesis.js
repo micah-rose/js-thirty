@@ -1,3 +1,4 @@
+//Variables for Speech Synthesis
 const msg = new SpeechSynthesisUtterance();
 let voices = [];
 const voicesDropdown = document.querySelector('[name="voice"]');
