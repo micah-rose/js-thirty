@@ -7,6 +7,10 @@ const speakButton = document.querySelector("#speak");
 const stopButton = document.querySelector("#stop");
 msg.text = document.querySelector('[name="text"]').value;
 
+function populateVoices() {
+  console.log("voices");
+}
+
 function setVoice() {
   console.log("setVoice");
 }
