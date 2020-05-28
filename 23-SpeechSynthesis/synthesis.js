@@ -19,11 +19,15 @@ function populateVoices() {
 }
 
 function setVoice() {
-  console.log("setVoice");
+  msg.voice = voices.find(voice => voice.name === this.value);
+  toggle();
 }
 
 function toggle(startOver = true) {
-  console.log("start over");
+  speechSynthesis.cancel();
+  if (startOver) {
+    speechSynthesis.speak(msg);
+  }
 }
 
 function setOption() {
