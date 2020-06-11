@@ -3,6 +3,7 @@ const divs = document.querySelectorAll("div");
 const button = document.querySelector("button");
 
 function logText(e) {
-  e.stopPropagation(); // stop bubbling!
-  console.log(this);
+  console.log(this.classList.value);
+  // e.stopPropagation(); // stop bubbling!
+  // console.log(this);
 }
