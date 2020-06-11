@@ -8,7 +8,19 @@ function logText(e) {
   // console.log(this);
 }
 
-divs.forEach(div => div.addEventListener('click', logText, {
+divs.forEach(div =>
+  div.addEventListener("click", logText, {
     capture: false,
     once: true
-  }));
+  })
+);
+
+button.addEventListener(
+  "click",
+  () => {
+    console.log("Click!!!");
+  },
+  {
+    once: true
+  }
+);
