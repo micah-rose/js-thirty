@@ -31,3 +31,7 @@ function handleEnter() {
     `translate(${coords.left}px, ${coords.top}px)`
   );
 }
+
+function handleLeave() {
+  console.log("Leave");
+}
