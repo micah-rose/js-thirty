@@ -1,0 +1,1 @@
+//JS file for Click and Drag exercise
