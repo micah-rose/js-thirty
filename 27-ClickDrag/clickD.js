@@ -15,3 +15,8 @@ slider.addEventListener("mouseleave", () => {
   isDown = false;
   slider.classList.remove("active");
 });
+
+slider.addEventListener("mouseup", () => {
+  isDown = false;
+  slider.classList.remove("active");
+});
